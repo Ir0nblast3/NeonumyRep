@@ -1,0 +1,10 @@
+li a {
+    color: white;
+}
+
+body {
+    background-image: url("images/michelle-hoefener-new-arcade-miss-fortune.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
