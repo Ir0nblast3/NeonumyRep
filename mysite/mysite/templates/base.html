@@ -34,6 +34,13 @@
     <body class="{% block body_class %}{% endblock %}">
         {% wagtailuserbar %}
 
+              <nav>
+                <div class = "topbar"> 
+                    <a href="/">Home</a>
+                    <a href="/blog/">Blog</a>
+                </div>
+              </nav>
+
         {% block content %}{% endblock %}
 
         {# Global javascript #}
