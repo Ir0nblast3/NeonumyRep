@@ -5,21 +5,6 @@ body {
     background-color: wheat;
 }
 
-.topbar{
-    background: black;
-    display: flex;
-    justify-content: flex-end;
-    gap: 20px;
-    padding: 15px;
-    
+:root{
+    --bs-dark-rgb: 0,0,0;
 }
-
-.topbar a {
-    color: antiquewhite;
-    text-decoration: none;
-}
-
-.topbar a:hover{
-    filter: brightness(50%);
-}
-
